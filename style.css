@@ -1,0 +1,820 @@
+html{
+    font-size: 10px;
+    font-family: 'Opinion Pro Cn Lt';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo-header li{
+    display: inline-block;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Opinion Pro Cn Lt';
+    font-weight: 600;
+}
+
+#logo-header a{
+    text-decoration: none;
+}
+
+#logo-header ul
+{
+    width: 700px;
+    list-style: none;
+    text-decoration: none; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo-header h1 a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Opinion Pro Cn Lt';
+    font-size: 5.2rem;
+    font-weight: bolder;
+    color: #8ec694;
+}
+
+.logo-name{
+    width: 100px;
+}
+
+.social-links{
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.social-links a{
+    padding-left: 5px;
+}
+
+header{
+    background-image: url(https://static.tildacdn.com/tild6461-6135-4364-b536-303063616134/IMG_0670.JPG);
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+	background-attachment: fixed;
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: unset;
+    width: 100%;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-header-info{
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.55;
+    letter-spacing: 0.5px;
+    font-size: 6.2rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Opinion Pro Cn Lt';
+}
+
+.sub-header-info{
+    color: white;
+    line-height: 1.55;
+    letter-spacing: 0.5px;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Opinion Pro Cn Lt';
+}
+
+#content-1{
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+
+.main-content-1{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photo-example{
+    max-width: 560px;
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    justify-content: center;
+    position: relative;
+}
+
+.discription-wax{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    
+}
+
+.img1{
+    width: 57%;
+    max-height: 440px;
+    height: 100vh;
+    margin-right: 5%;
+    background-image: url("https://static.tildacdn.com/tild3134-6232-4631-b066-666462623936/5-2.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.img-box{
+    width: 38%;
+    max-height: 440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img2{
+    width: 100%;
+    max-height: 259px;
+    height: 100vh;
+    background-image: url("https://static.tildacdn.com/tild6165-3031-4666-b063-636465363934/IMG_1862.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.img3{
+    margin-top: 25%;
+    width: 100%;
+    max-width: 350px;
+    position: absolute;
+    right: 60%;
+    background-image: url("https://static.tildacdn.com/tild3335-3062-4631-b161-346333323031/2-3.png");
+    height: 100vh;
+    max-height: 214px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.line-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.line{
+    background-color: black;
+    max-width: 50px;
+    width: 100%;
+    height: 3px;
+}
+
+.discription-wax p{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Opinion Pro Cn Lt';
+}
+
+p.h1-p{
+    font-size: 5.2rem;
+    font-family: 'Opinion Pro Cn Lt';
+    font-weight: 600;
+
+}
+
+#content-2{
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: static;
+}
+
+.modeling-3D-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+}
+
+.modeling-3D-discription p{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Opinion Pro Cn Lt';
+    line-height: 1.55;
+    margin-bottom: 3%;
+}
+
+p.h1-p{
+    font-size: 5.2rem;
+    font-family: 'Opinion Pro Cn Lt';
+    font-weight: 600;
+
+}
+
+.model-3D-example{
+    max-width: 560px;
+    width: 100%;
+    height: 824px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.example-model{
+    width: 50%;
+    max-width: 270px;
+    height: 270px;
+    max-height: 270px;
+}
+
+.example-model:nth-child(1){
+    background-image: url("https://static.tildacdn.com/tild3066-3837-4238-b365-333637666337/3d-modelirovanie-vop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.example-model:nth-child(2){
+    background-image: url("https://static.tildacdn.com/tild3033-3630-4937-a630-646361643732/3d_mod.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#content-3{
+    min-height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-milling{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-example-milling{
+    width: 270px;
+    height: 270px;
+    background-color: gray;
+    margin: 1.5%;
+}
+
+.photo-example-milling:nth-child(1){
+    background-image: url("https://static.tildacdn.com/tild3866-3464-4264-b837-333431383964/4-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.photo-example-milling:nth-child(2){
+    background-image: url("https://static.tildacdn.com/tild3632-6362-4536-b137-633466626565/8-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.photo-example-milling:nth-child(3){
+    background-image: url("https://static.tildacdn.com/tild6230-6632-4237-b930-616335646333/IMG_1863.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.photo-example-milling:nth-child(4){
+    background-image: url("https://static.tildacdn.com/tild3539-3736-4164-a239-633632636665/IMG_1851.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 0px;
+}
+
+.main-content-1 .modeling-3D-discription{
+    width: 50%;
+}
+
+#content-3 .main-content-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#content-4{
+    width: 100%;
+    min-height: 140vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content-4 p{
+    min-width: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#content-4 p.h1-p{
+    font-size: 5.2rem;
+    font-family: 'Opinion Pro Cn Lt';
+    font-weight: 600;
+    text-align: center;
+}
+
+.example{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.example-img{
+    width: 316px;
+    height: 316px;
+    background-color: gray;
+    margin-top: 2%;
+}
+
+.example-img:nth-child(1){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild6437-6264-4561-b435-313132656335/2-2.JPG") no-repeat scroll center center / cover;
+   
+}
+
+.example-img:nth-child(2){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild3761-3931-4331-b539-616331383061/11.png") no-repeat scroll center center / cover;
+    
+}
+
+.example-img:nth-child(3){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild6339-3036-4562-b335-323637643962/3-1.JPG") no-repeat scroll center center / cover;
+    
+}
+
+.example-img:nth-child(4){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild6164-6433-4533-b262-396637303633/22.png") no-repeat scroll center center / cover;
+   
+}
+
+.example-img:nth-child(5){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild6661-6432-4464-b135-303236343830/1.png") no-repeat scroll center center / cover;
+    
+}
+
+.example-img:nth-child(6){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild3961-6136-4462-a434-363635323731/3.JPG") no-repeat scroll center center / cover;
+    
+}
+
+.example-img:nth-child(7){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild3632-3039-4438-b639-373130323030/1-4.JPG") no-repeat scroll center center / cover;
+    
+}
+
+.example-img:nth-child(8){
+    background: rgba(0, 0, 0, 0) url("https://static.tildacdn.com/tild6166-6364-4464-b830-653933346461/4-3.JPG") no-repeat scroll center center / cover;
+}
+
+#content-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 120vh;
+}
+
+.advantage{
+    margin-top: 4%;
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.advantage p{
+    font-size: 2.2rem;
+    font-family: 'Opinion Pro Cn Lt';
+    font-weight: 300;
+}
+
+.p{
+    max-width: 465px;
+}
+
+.svg{
+    width: 55px;
+    margin-right: 10%;
+}
+
+#content-6{
+    min-height: 130vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.catalog{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sale{
+    max-width: 360px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-model{
+    width: 360px;
+    height: 396px;
+}
+
+.sale .img-model:nth-child(1){
+    background-image: url("https://static.tildacdn.com/tild6639-3932-4133-b038-336630396533/3end-450x350.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale:nth-child(2) .img-model{
+    background-image: url("https://static.tildacdn.com/tild3538-3339-4666-a262-333462326538/4-2.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale:nth-child(3) .img-model{
+    background-image: url("https://static.tildacdn.com/tild3839-3037-4037-a364-623163663064/_DSC4109.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.main-model-discription{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family:'Opinion Pro Cn Lt';
+    font-weight: bold;
+}
+
+p.sub-model-discrioption{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family:'Opinion Pro Cn Lt';
+    font-weight: 300;
+}
+
+.sub-model-discrioption li{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family:'Opinion Pro Cn Lt';
+    font-weight: 300;
+}
+
+.button{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8bc49f;
+    color: black;
+    transition: 0.5s;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#content-7{
+    min-height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#content-7 a{
+    color: #ff8562;
+    text-decoration: none;
+}
+
+.cont-block{
+    max-width: 660px;
+    width: 100%;
+    text-align: center;
+}
+
+p.sub-h1{
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    font-family:'Opinion Pro Cn Lt';
+}
+
+p.discription-sub{
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    font-family:'Opinion Pro Cn Lt';
+    line-height: 1.5;
+}
+
+#content-7 .button{
+    margin-top: 5%;
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#content-7 .button:hover{
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#content-8{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    background-attachment: scroll;
+    background-image: url("https://static.tildacdn.com/tild3264-6463-4665-b063-313537663566/22.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+}
+
+.grad{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-cont-8{
+    max-width: 960px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.main-cont-8 p.h1-p{
+    color: white;
+    text-align: center;
+}
+
+.main-cont-8 p.sub-h1{
+    color: white;
+    font-weight: 300;
+}
+
+.button:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#content-9{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #8ec694;
+}
+
+.adress-info{
+    min-height: 100vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+
+#content-9 p.sub-h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.adress-info p{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.number{
+    font-weight: bold;
+    color: black;
+}
+
+#content-9 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.second{
+    margin-top: 5%;
+    color: black;
+}
+
+#content-9 .social-links{
+    margin-top: 5%;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.map{
+    width: 50%;
+    min-height: 100vh;
+}
+
+.map iframe{
+    width: 100%;
+    min-height: 100vh;
+    border: 0;
+    pointer-events:all; 
+}
+
+.footer1{
+    min-height: 302px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+}
+
+.footer{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.img-social{
+    width: 120px;
+}
+
+.img-social .social-links{
+    margin-top: 15%;
+    justify-content: flex-start;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.h1-info{
+    text-transform: uppercase;
+    text-align: left;
+    color: #87c292;
+    font-size: 1.8rem;
+    margin-left: 40px;
+}
+
+.info li{
+    text-align: left;
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.info .number{
+    font-weight: bold;
+    color: white;
+}
+
+.info a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.info a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.box{
+    height: 111px;
+}
+#content-3 li{
+    min-width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Opinion Pro Cn Lt';
+}
